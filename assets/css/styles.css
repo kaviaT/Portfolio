@@ -321,6 +321,11 @@ img{
   transform: scale(1.1);
 }
 
+.project_heading {
+  text-align: center;
+
+}
+
 /* ===== CONTACT =====*/
 .contact__input{
   width: 100%;

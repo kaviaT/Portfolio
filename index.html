@@ -1,255 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Portfolio</title>
+</head>
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>K </span>avindu <span>H</span>ettiarachchi</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
 
-        <title>Kavindu's Portfolio</title>
-    </head>
-    <body>
-        
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Kavindu Hettiarachchi</a>
-                </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Welcome to <span></span></h1>
+        <h1>Kavindu's <span></span></h1>
+        <h1>Portfolio <span></span></h1>
+        <a href="#projects" type="button" class="cta">Recent Projects</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+   <!-- About Section -->
+   <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/about.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <br><br>
+        <h1 style="background-color:lightcoral;">Objective</h1>
+        <p>Seeking a position to utilize my skills and abilities in the 
+          Software Engineering Industry that offers Professional growth 
+          while being resourceful, innovative and flexible</p>
 
-        <main class="l-main">
+        <h1 style="background-color:lightcoral;">Education</h1>
+        <p> 
+
+          <b>Informatics Institute of Technology</b> , affiliated with the 
+          University of Westminster London. – 2020 to 2024<br>
+                        • <i>B.Eng. (Hons) Software Engineering (Undergraduate) </i><br><br>
+          
+          <b>Royal College, Colombo 7</b><br>
+            • <i>Successfully Completed G.C.E. Advanced Level in Common 
+          Stream - 2019<br>
+            • Successfully Completed G.C.E. Ordinary Level Examination -2015 </i>
+              <br>
+          <h1 style="background-color:lightcoral;">Experience</h1> 
+          <p>
+          Image Makers Pvt.Ltd - <b>Graphic Designer</b> <i>(Jan 2020 - July 2020)</i>
+          </p>
+        <br>
+        </p>
+                        
+        <a href="https://drive.google.com/file/d/1MqWQAykvjsx9DY07tGn_qL_3dKho6mXS/view?usp=sharing" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Serv<span>i</span>ces</h1>
+        <p>Below listed are some of my favourites!!! </p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Web Designing</h2>
+          <p>Web Designing is the main intertst topic all of them. I'm Experience in creating a full website which you can see in below under Projects
+            (FruGe -price prediction website)
+          </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Web Development</h2>
+          <p>After the experience of creating a full price prediction website, the Interest to this subject was gone high. I believe to polish my skills
+            on Web Development areas.  </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Graphic Design</h2>
+          <p>While working as a graphic designer in industry, I've grabbed many GD techniques. I'm interest to use the knowledge that I have in
+            Front-End development areas
+          </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>UI/UX Design</h2>
+          <p>I'm interst in designing UI/UX, It's the first place which user meets the Application or the website. To attract the user I'll use the experiect that
+            I have
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>FruGe</h1>
+            <h2>Price Prediction</h2>
+            <p>Fruge is a Website which is predict the future market prices of Fruits and Vegetables. User can sign up and see the predicted prices of Today, Tomorrow and as well as next week
+              Cheapest Items page also availabe. The website is hosted using AWS services<br><br> 
+              Front- End -Angular<br>
+              Back-End -NodeJs<br>
+              Data Model -Arima
+          </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/work1.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Premier League System</h1>
+            <h2>OOP Concepts</h2>
+            <p></p>
+          </div>
+          <div class="project-img">
+            <img src="./img/work2.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Gym Management System</h1>
+            <h2>JAVA<br>MongoDb<br>OOP Concepts</h2>
+            <p>Gym management system using MongoDb. Gym Manager can add members according to their age groups. Deleting, Print and search a member functions also there</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/work3.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Financial Calculators</h1>
+            <h2>Java</h2>
+            <p>Includes Auto Loan, Mortgage, Compound Interest and Compound Interest  (No Payments) Calculators</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/work4.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Sports For Life</h1>
+            <h2>HTML<br>CSS<br>JavaScript</h2>
+            <p>Sports Website which have a quiz, comment us sections and gallery view</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/work5.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>HomeTeq</h1>
+            <h2>HTML<br>CSS<br>PHP<br>SQL</h2>
+            <p>E-commerce web page which have login, purchase, add to basket functions </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/work6.jpg" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+ 
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+94 71 31 22 816</h2>
             
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                
-                <div class="home__data">
-                    <h1 class="home__title">Warmly,<br> <span class="home__title-color">Welcome!!!</span><br> </h1>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>kthisal@gmail.com</h2>
+           
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>1/40, Singha Lane, Bangalawatte, Kottawa</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
 
-                    <a href="mailto:kthisal@gmail.com" class="button">Contact</a>
-                </div>
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>K</span>avindu <span>H</span>ettiarachchi</h1>
+      </div>
+      <h2></h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/k.thisal/"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/kavindu_hetti/"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/kavindu-hettiarachchi/"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png"/>></a>
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/kaviaT"><img src="https://img.icons8.com/bubbles/50/000000/github.png"/></a>
+        </div>
+        
+      </div>
+     
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
 
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/kavindu-hettiarachchi/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    
-                    <a href="https://github.com/kaviaT" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-                <div class="home__img">    
-                    <img src="assets/img/perfil.png" alt="">
-                </div>
-                
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I am Kavindu Hettiarachchi</h2>
-                        <p class="about__text">
-                            Seeking a position to utilize my skills and abilities in the 
-                            Software Engineering Industry that offers Professional growth 
-                            while being resourceful, innovative and flexible <br> <br>
-                        
-                            <h3><u>Education</u></h3> 
-                            <b>Informatics Institute of Technology</b> , affiliated with the 
-                            University of Westminster London. – 2020 to 2024<br>
-                                          • <i>B.Eng. (Hons) Software Engineering (Undergraduate) </i><br><br>
-                            
-                            <b>Royal College, Colombo 7</b><br>
-                              • <i>Successfully Completed G.C.E. Advanced Level in Common 
-                            Stream - 2019<br>
-                              • Successfully Completed G.C.E. Ordinary Level Examination -2015 </i>
-                                <br>
-                            <h3><u>Experience</u></h3> 
-                            
-                            Image Makers Pvt.Ltd - <b>Graphic Designer</b> <i>(Jan 2020 - July 2020)</i>
-                        
-                        
-                        </p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">
-                          • HTML
-                          • CSS 
-                          • JavaScript
-                          • JAVA
-                          • PHP
-                          • MongoDb
-                          • GIT
-                          • Bootstrap
-                          • Angular
-                          • JavaFx
-                          • Python</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">UX/UI</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/skills.jpg" alt="" class="skills__img">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Projects</h2>
-
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <h3 class="project_heading"> Fruge Website (Angular, Node, Arima)</h3>
-                        <a href="http://testfruge-1.s3-website.ap-south-1.amazonaws.com/">
-                        <img src="assets/img/work1.jpg" alt="" ></a>
-                    </div>
-                    <div class="work__img">
-                        <h3 class="project_heading"> Premiere League System (JavaFx)</h3>
-                        <a href="https://github.com/kaviaT/Premier-league-management-system">
-                        <img src="assets/img/work2.jpg" alt=""></a>
-                    </div>
-                    <div class="work__img">
-                        <h3 class="project_heading"> Gym Management System (JavaFx, MongoDb)</h3>
-                        <a href="">
-                        <img src="assets/img/work3.jpg" alt=""></a>
-                    </div>
-                    <div class="work__img">
-                        <h3 class="project_heading"> Loan Calculators</h3>
-                        <a href="https://github.com/kaviaT/Financial-Calculator">
-                        <img src="assets/img/work4.jpg" alt=""></a>
-                    </div>
-                    <div class="work__img">
-                        <h3 class="project_heading"> Sports Website</h3>
-                        <a href="https://github.com/kaviaT/Sports-Web-Page">
-                        <img src="assets/img/work5.jpg" alt=""></a>
-                    </div>
-                    <div class="work__img">
-                        <h3 class="project_heading"> Homteq (PHP)</h3>
-                        <a href="https://github.com/kaviaT/homteq">
-                        <img src="assets/img/work6.jpg" alt=""></a>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-<!--
-
-
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enter" class="contact__button button">
-                    </form>
-                </div>
-                -->
-                <div class="contact__container bd-grid">
-                  <p> Email -<a href="mailto: kthisal@gmail.com"> kthisal@gmail.com</a><br><br>
-                  Phone - <b>+94 71 312 2816</b>
-                  </p>
-
-                </div>
-
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Kavindu Hettiarachchi</p>
-            <div class="footer__social">
-                <a href="https://www.facebook.com/k.thisal/" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="https://www.instagram.com/kavindu_hetti/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <!--<a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>-->
-            </div>
-            <p>&#169; 2021 copyright all right reserved</p>
-        </footer>
-
-
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
 </html>
